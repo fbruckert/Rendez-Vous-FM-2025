@@ -6,6 +6,7 @@
 // Lire le contenu JSON envoyé par le callback
 $data = file_get_contents("php://input");
 
+$json = $data;
 // Datas Test
 /*
 $data = [
@@ -16,7 +17,6 @@ $data = [
 $json = json_encode($data);
 
 */
-$json = $data;
 
 $data = [
     "scriptParameterValue" => $json
