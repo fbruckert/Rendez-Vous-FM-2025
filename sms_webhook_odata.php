@@ -8,7 +8,7 @@ $data = file_get_contents("php://input");
 
 $json = $data;
 // Datas Test
-// tout comme dans FileMaker, supprimer /* et */ pour tester avec les Datas Test
+// tout comme dans FileMaker, supprimez /* et */ pour tester avec les Datas Test
 /*
 $data = [
     "nom" => "RdvFM2025",
